@@ -46,6 +46,13 @@ body {
     width: 100%;
 }
 
+.navigation__logo h1 {
+    margin: 0 1rem;
+    padding: 1rem;
+    background: var(--mid-blue);
+    color: var(--white);
+}
+
 .navigation__links {
     display: flex;
     padding: 0.3rem;

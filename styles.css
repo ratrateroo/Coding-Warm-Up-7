@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 :root {
     --red: #D40424;
     --white: #E9F0F7;
@@ -18,18 +19,37 @@ html {
 
 body {
     width: 100%;
-    height: 100%
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 50px;
+    height: auto;
     background: var(--red);
 }
 
 .navigation {
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation__links {
+    display: flex;
+    padding: 0.3rem;
+}
+
+.navigation__link {
+    list-style: none;
+    margin: 0.3rem 2rem;
+}
+
+.navigation__link a{ 
+    text-decoration: none;
+    color: var(--white);
 }

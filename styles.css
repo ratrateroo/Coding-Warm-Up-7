@@ -5,3 +5,31 @@
     --mid-blue: #223040;
     --dark-blue: #101D29;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    width: 100%;
+    height: 100%
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background: var(--red);
+}
+
+.navigation {
+    display:flex;
+}

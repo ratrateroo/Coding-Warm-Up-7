@@ -68,6 +68,12 @@ body {
     color: var(--white);
 }
 
+.navigation__link a:hover {
+    transition: 0.3s;
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
 .main-area {
     grid-area: main-area;
 }

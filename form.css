@@ -24,7 +24,7 @@
 .main__form {
     padding: 2rem;
     border: var(--red) solid 1px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 500px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
 }
@@ -52,16 +52,15 @@
 .main__form .form__button {
     margin-top: 1rem;
     font-size: 1.2rem;
-    height: 2rem;
+    height: 2.3rem;
     border: none;
     background-color: var(--red);
     color: var(--white);
     border-radius: 0.5rem;
 }
 
-textarea:focus, input:focus, select:focus{
-    outline: none;
+.form__input:focus, .form__select:focus{
+    outline:  none;
+    border-color: var(--red);
+     
 }
-
-
- 

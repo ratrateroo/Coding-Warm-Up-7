@@ -6,3 +6,19 @@
     --dark-blue: #101D29;
 }
 
+.main-area {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__form, .form__label, .form__input, .form__select {
+    display: block;
+    width: 100%;
+}
+
+.main__form {
+    padding: 2rem;
+    border: var(--red) solid 1px;
+    border-radius: 5px;
+}

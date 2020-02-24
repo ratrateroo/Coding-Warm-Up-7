@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="navigation__logo">
+                <h1>MT</h1>
+            </div>
+            <div class="navigation__items">
+                <ul class="navigation__links">
+                    <li class="navigation__link">
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="myproducts.html">My Products</a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="addproducts.html">Add Product</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation__access">
+                <ul class="navigation__links">
+                    <li class="navigation__link">
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="signup.html">Signup</a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="logout.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-area">
+        <div class="form">
+            <form action="post">
+                <label for="email">Email </label>
+                <input type="email" name="email">
+
+                <label for="password">Password </label>
+                <input type="password" name="password">
+
+                <label for="password">Confirm Password </label>
+                <input type="password" name="confirmpassword">
+
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname">
+
+                <label for="middlename">Middle Name: </label>
+                <input type="text" name="middlename">
+
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname">
+
+                <label for="gender">Choose a pet:</label>
+
+                <select name="gender">
+                    <option value="">Select your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>                   
+                </select>
+            </form>
+           
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__navigation">
+            <ul class="footer__links">
+                <li class="footer__link"><a href="#">Terms and Conditions</a></li>
+                <li class="footer__link"><a href="#">Help</a></li>
+                <li class="footer__link"><a href="signup.html">Signup</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

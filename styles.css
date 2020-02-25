@@ -107,6 +107,8 @@ body {
 
 .main-area {
     grid-area: main-area;
+    margin-top: 90px;
+    background: var(--white);
      
 }
 

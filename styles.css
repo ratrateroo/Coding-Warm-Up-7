@@ -40,7 +40,7 @@ body {
     width: 100vw;
     height: 80px;
     background: var(--red);
-    transition: 0.6s;
+    transition: 0.2s;
 }
 
 
@@ -89,6 +89,7 @@ body {
     position: fixed;
     height: 60px;
     background: var(--mid-blue);
+    transition: 0.6s;
     
 }
 

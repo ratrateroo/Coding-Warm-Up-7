@@ -42,9 +42,9 @@
     border: 1px solid gray;
     height: 100%;
     width: 100%;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
     
     padding: 1rem;
 }
@@ -53,15 +53,18 @@
     border-radius: 10px;
     border: 1px solid gray;
     grid-area: description;    
-    overflow: hidden;     
+    overflow: hidden;  
     margin: 1rem;
     padding: 1rem;
 }
 
 .product__description p {
-    font-weight: 1.2rem;
+    font-size: 1.2rem;
     text-align: justify;
     text-indent: 2rem;
+    overflow: hidden;  
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 .product__buttons {

@@ -86,6 +86,7 @@ body {
 }
 
 .sticky {
+    position: fixed;
     height: 60px;
     background: var(--mid-blue);
     
@@ -107,7 +108,7 @@ body {
 
 .main-area {
     grid-area: main-area;
-    margin-top: 90px;
+    margin-top: 80px;
     background: var(--white);
      
 }

@@ -7,6 +7,8 @@
     <title>Index Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="backdrop.css">
+    <link rel="stylesheet" href="modal.css">
 </head>
 
 <body>
@@ -49,8 +51,17 @@
 
     <main class="main-area">
         <h1>Main Area</h1>
-        <div id="backdrop" class="backdrop">
+        <div id="backdrop" class="backdrop"></div>
 
+        <div class="modal">
+            <header class="modal__header">
+                <h1>Modal Title</h1>
+            </header>
+            <div class="modal__conent">Modal Content</div>
+            <div class="modal__actions">
+                <button>Cancel</button>
+                <button>Accept</button>
+            </div>
         </div>
     </main>
     <footer class="footer">

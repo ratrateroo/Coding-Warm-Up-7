@@ -1,0 +1,39 @@
+.mobile-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: 3px solid #fff;
+}
+
+.mobile-burger {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5 ease-in-out;
+}
+
+.mobile-burger::before,
+.mobile-burger::after {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+    transition: all 0.5 ease-in-out;
+}
+
+.mobile-burger::before {
+    transform: translateY(-10px);
+}
+
+.mobile-burger::after {
+    transform: translateY(10px);
+}
